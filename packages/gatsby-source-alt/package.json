@@ -1,0 +1,19 @@
+{
+  "name": "@alt-zap/gatsby-source-alt",
+  "version": "1.0.0",
+  "description": "A Gatsby Source plugin to fetch data from Firebase for Alt Zap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "Lucis <me@lucis.dev>",
+  "dependencies": {
+    "firebase-admin": "^9.0.0",
+    "gatsby-source-filesystem": "^2.3.23"
+  }
+}

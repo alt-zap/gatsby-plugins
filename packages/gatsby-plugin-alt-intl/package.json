@@ -1,0 +1,33 @@
+{
+  "name": "@alt-zap/gatsby-plugin-alt-intl",
+  "version": "1.0.0",
+  "description": "React INTL custom integration with Gatsby for the Alt project",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "cross-env NODE_ENV=production yarn run build",
+    "develop": "tsc --watch"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "Lucis <me@lucis.dev>",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@bit/lucis.alt.intl-config": "^0.1.0",
+    "react-intl": "^5.7.1"
+  },
+  "peerDependencies": {
+    "gatsby": "2.24.9",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@vtex/prettier-config": "^0.3.1",
+    "eslint": "^7.7.0",
+    "eslint-config-vtex": "^12.8.6",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  }
+}
